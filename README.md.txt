@@ -1,49 +1,70 @@
 # Cisco ASA 5505 Firewall Security Implementation
 
-## Overview
+## About This Project
 
-This project demonstrates the implementation of a secure network using Cisco ASA 5505 Firewall in Cisco Packet Tracer.
+This project demonstrates the implementation of a secure network using a Cisco ASA 5505 Firewall in Cisco Packet Tracer.
 
-The project includes:
+The objective was to create a network environment where authorized services are allowed while unwanted traffic is restricted through firewall security policies. The project includes firewall configuration, traffic filtering, NAT implementation, connectivity testing, and security verification.
 
-- Cisco ASA 5505 Configuration
+---
+
+## What Was Implemented?
+
+- Cisco ASA 5505 Firewall Configuration
 - Access Control Lists (ACLs)
 - Dynamic NAT
 - Static NAT
-- HTTP Access Testing
+- DNS and HTTP Service Access
 - FTP Traffic Blocking
-- DNS Verification
-- Connectivity Testing
-- Firewall Policy Enforcement
+- Connectivity Verification
+- Firewall Policy Testing
+
+---
+
+## Testing Results
+
+The configured security policies were tested to verify their behavior.
+
+| Test | Result |
+|--------|--------|
+| HTTP Access | Successful |
+| DNS Resolution | Successful |
+| FTP Access | Blocked |
+| NAT Verification | Successful |
+| Connectivity Testing | Successful |
+
+---
 
 ## Files Included
 
 ### Cisco_ASA_Firewall_Project.pkt
 
-Cisco Packet Tracer project file.
+The complete Cisco Packet Tracer project file containing all device configurations and network implementation.
 
 ### Project_Overview.pdf
 
-Project overview, implementation details, testing procedures, and results.
+A brief project overview explaining the network design, firewall configuration, testing process, troubleshooting steps, and project outcomes.
 
-## Key Results
+---
 
-- HTTP traffic successfully allowed
-- DNS resolution verified
-- FTP traffic successfully blocked
-- NAT translations validated
-- End-to-end connectivity confirmed
+## Skills Demonstrated
 
-## Technologies Used
+Through this project, I gained practical experience with:
 
-- Cisco Packet Tracer
-- Cisco ASA 5505
-- ACL
-- NAT
-- DNS
-- HTTP
-- FTP
+- Cisco ASA Firewall Configuration
+- Network Security
+- Access Control Lists (ACLs)
+- Dynamic and Static NAT
+- Routing Fundamentals
+- Traffic Filtering
+- Connectivity Testing
+- Network Troubleshooting
+
+---
 
 ## Author
 
-Sathsara Gamage
+**Sithila Sathsara Gamage**
+
+BSc (Hons) in Computer Networks Undergraduate  
+Interested in Network Security, Cybersecurity, and Network Engineering
